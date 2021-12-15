@@ -41,6 +41,7 @@
     },
     "devDependencies": {
         "@servicenow/cli-archetype-dev": "rome",
-        "@servicenow/cli-component-archetype-dev": "rome"
+        "@servicenow/cli-component-archetype-dev": "rome",
+        "react-error-overlay": "6.0.9"
     }
 }
