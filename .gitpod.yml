@@ -2,9 +2,8 @@ image: hrobarikt/gitpod-now-cli
   
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - name: Install dependencies
+  - name: Install dependencies and run dev server
     init: npm install
-  - name: DEV Server
     command: npm run start:counterExample
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
